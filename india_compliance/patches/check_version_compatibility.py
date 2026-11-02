@@ -16,7 +16,9 @@ VERSIONS_TO_COMPARE = [
             "version-14": "14.57.0",
             # Frappe #43160 (fetch_from on Autocomplete fields)
             "version-15": "15.121.1",
-            "version-16": "16.33.0",
+            # Local bench pin: this bench runs Frappe 16.31.0 on purpose
+            # (see version-16-ewaybill branch); do not re-add a version-16
+            # requirement above 16.31.0 without upgrading Frappe first.
         },
     },
     {
